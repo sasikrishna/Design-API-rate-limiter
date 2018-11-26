@@ -11,4 +11,4 @@ Note: This is not complete design and this design is theoritacal and not impleme
 Solution:
 ----------
 - When I first had to think solution for this problem, below was my approach.
-  
+  ![API Rate Limiter](image1.png)
