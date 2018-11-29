@@ -12,3 +12,4 @@ Solution:
 ----------
 - When I first had to think solution for this problem, below was my approach.
   ![API Rate Limiter](image1.png)
+  ![API Rate Limiter](image2.png)
