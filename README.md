@@ -14,7 +14,7 @@ Solution:
 ![API Rate Limiter](api_rate_limiter1.png)
 - Using instance of API rate limiter in every resource before processing the request.
 - We can have better design than above discussed one. The idea is to send all requests through API rate limit handler and processing further. This sounds like using interceptor design pattern.
-![API Rate Limiter](image2.png)
+![API Rate Limiter](api_rate_limiter2.png)
 - As shown in above image, all requests will pass through rate limit handler. So for every request we can verify how many requests this user has sent in last one second, minute or hour based on user plan.
 - We should use some kind of storage mechanism to count the number of requests/duration. Below is the sample table schema looks like.
 ![API Requests schema](api_requests_schema.png)
